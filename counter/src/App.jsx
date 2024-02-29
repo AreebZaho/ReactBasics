@@ -5,7 +5,7 @@ import Button from "./Button";
 import DisplayVals from "./DisplayVals";
 import {useState} from "react";
 
-const Main = () => {
+const App = () => {
 	const [counter, setCounter] = useState(10);
 	return (
 		<>
@@ -23,4 +23,4 @@ const Main = () => {
 	);
 };
 
-export default Main;
+export default App;
