@@ -1,5 +1,4 @@
 import React from "react";
-import "./index.css";
 import Heading from "./Heading";
 import Button from "./Button";
 import DisplayVals from "./DisplayVals";
