@@ -56,6 +56,7 @@ import Layout from "./Layout";
 export default function App() {
 	return (
 		<BrowserRouter>
+			<Header />
 			<Routes>
 				<Route path="/" element={<Layout />}>
 					{/* everything below is a part of layout's outlet */}
